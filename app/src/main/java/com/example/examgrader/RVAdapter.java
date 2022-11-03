@@ -34,10 +34,10 @@ public class RVAdapter extends RecyclerView.Adapter<RVAdapter.MyVH> {
         DatosExamen datosExamen = list.get(position);
         holder.txtname.setText(datosExamen.getNombre_examen());
         holder.txtsubject.setText(datosExamen.getNombre_materia());
-        holder.txtopciones.setText(datosExamen.getNum_opciones());
-        holder.txtpreguntas.setText(datosExamen.getNum_preguntas());
-        holder.txtbuenas.setText(Double.toString(datosExamen.getPntos_correcta()));
-        holder.txtmalas.setText(Double.toString(datosExamen.getPntos_incorrecta()));
+        holder.txtopciones.setText(datosExamen.getNum_opciones()+"");
+        holder.txtpreguntas.setText(datosExamen.getNum_preguntas()+"");
+        holder.txtbuenas.setText(datosExamen.getPntos_correcta()+"");
+        holder.txtmalas.setText(datosExamen.getPntos_incorrecta()+"");
 
     }
 

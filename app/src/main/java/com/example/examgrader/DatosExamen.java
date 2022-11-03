@@ -10,16 +10,16 @@ public class DatosExamen {
     private Double pntos_correcta;
     private Double pntos_incorrecta;
 
-    public DatosExamen(String nombre_materia, String nombre_examen, Integer num_preguntas,
-                       Integer num_opciones, Double pntos_correcta, Double pntos_incorrecta) {
+    /*public DatosExamen(String nombre_materia, String nombre_examen, Integer num_preguntas, Integer num_opciones, Double pntos_correcta, Double pntos_incorrecta) {
         this.nombre_materia = nombre_materia;
         this.nombre_examen = nombre_examen;
         this.num_preguntas = num_preguntas;
         this.num_opciones = num_opciones;
         this.pntos_correcta = pntos_correcta;
         this.pntos_incorrecta = pntos_incorrecta;
-    }
-//NOMBRE MATERIA
+    }*/
+
+    //NOMBRE MATERIA
     public String getNombre_materia() {
         return nombre_materia;
     }
@@ -68,5 +68,15 @@ public class DatosExamen {
         this.pntos_incorrecta = pntos_incorrecta;
     }
 
-
+    @Override
+    public String toString() {
+        return "DatosExamen{" +
+                "nombre_materia='" + nombre_materia + '\'' +
+                ", nombre_examen='" + nombre_examen + '\'' +
+                ", num_preguntas=" + num_preguntas +
+                ", num_opciones=" + num_opciones +
+                ", pntos_correcta=" + pntos_correcta +
+                ", pntos_incorrecta=" + pntos_incorrecta +
+                '}';
+    }
 }

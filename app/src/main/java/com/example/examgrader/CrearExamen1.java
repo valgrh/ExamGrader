@@ -99,7 +99,7 @@ public class CrearExamen1 extends AppCompatActivity {
 
 
 
-                DatosExamen datosExamen = new DatosExamen(txtbmateria.getText().toString(), txtbnombre_examen.getText().toString(),
+              /*  DatosExamen datosExamen = new DatosExamen(txtbmateria.getText().toString(), txtbnombre_examen.getText().toString(),
                         preg, opciones, correcta, incorrecta);
 
                 mStorage = FirebaseStorage.getInstance().getReference().child(daoStorage.mostrar_foto(datosExamen));
@@ -156,7 +156,7 @@ public class CrearExamen1 extends AppCompatActivity {
 
 
 
-
+*/
 
 
 

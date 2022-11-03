@@ -54,15 +54,17 @@ public class RvActivity extends AppCompatActivity {
         daoExamen.get().addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
+                //try {
+                    for (DataSnapshot dataSnapshot : snapshot.getChildren()) {
+                        DatosExamen datosExamen = dataSnapshot.getValue(DatosExamen.class);
+                        list.add(datosExamen);
+                    }
 
-                for (DataSnapshot dataSnapshot : snapshot.getChildren()){
-                    DatosExamen datosExamen = dataSnapshot.getValue(DatosExamen.class);
-                    list.add(datosExamen);
-                }
+                    adapter.notifyDataSetChanged();
 
-                adapter.notifyDataSetChanged();
-                
-
+               /* } catch (Exception e) {
+                    Toast.makeText(RvActivity.this, e+"", Toast.LENGTH_SHORT).show();
+                }*/
             }
 
             @Override
