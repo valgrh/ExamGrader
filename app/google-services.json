@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "368106771622",
+    "firebase_url": "https://exam-grader-d21cc-default-rtdb.firebaseio.com",
+    "project_id": "exam-grader-d21cc",
+    "storage_bucket": "exam-grader-d21cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:368106771622:android:9a05e69a7676f9f4585067",
+        "android_client_info": {
+          "package_name": "com.example.examgrader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "368106771622-0inas476i3j6pfl07b17ge15to3md5du.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8XmRGUXwTmSdVbcamiKOl6uUnr9reiTE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "368106771622-0inas476i3j6pfl07b17ge15to3md5du.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
